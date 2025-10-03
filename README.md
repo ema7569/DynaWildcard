@@ -51,7 +51,9 @@ A simplified dynamic prompt pour a1111
 - **Optional blocks** use `?probability` (0–1), default 0.5 if omitted.  
 
 
-
+⚠️ Important: The execution order of script callbacks in A1111 can affect results.
+Make sure the Dynamic Wildcards script runs before prompt-merging extensions (such as embedding merge) but after file-based wildcards if you use both.
+You can adjust this order in Settings → Script order.
 
 
 
