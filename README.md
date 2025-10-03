@@ -6,7 +6,7 @@ A simplified dynamic prompt pour a1111
 
 - **Nested random blocks** `{A|B|{C|D}}`
 - **Internal weights** `{{A|B}:1|{C|D}:2}` to control frequency  
-- **Optional blocks** `{A|B}?0.25` probability to remove (e.g., `?0.25`)  
+- **Optional blocks** `{A|B}?0.25` probability to remove a block (e.g., `?0.25`)  
 
 ---
 
