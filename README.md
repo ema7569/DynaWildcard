@@ -52,8 +52,8 @@ A simplified dynamic prompt pour a1111
 
 
 ⚠️ Important: The execution order of script callbacks in A1111 can affect results.
-Make sure the Dynamic Wildcards script runs before prompt-merging extensions (such as embedding merge) but after file-based wildcards if you use both.
-You can adjust this order in Settings → Script order.
+Make sure the Dynamic Wildcards script runs before other prompts extensions (such as fusion or merge). 
+If you use both, you can adjust the callback order in Settings → Callbacks.
 
 
 
