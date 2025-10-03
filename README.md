@@ -5,8 +5,8 @@ A simplified dynamic prompt pour a1111
 **DynaWildcardScript** is a script for the Automatic1111 WebUI that allows generating dynamic and varied prompts for Stable Diffusion. 
 
 - **Nested random blocks** `{A|B|{C|D}}`
-- **Internal word weights** `{{A|B:2}|{C|D}:2}` to control frequency  
-- **Internal block weights** `{{A|B}:1|{C|D}:2}` to control frequency  
+- **Internal word weights** `{{A|B:2}|{C|D}:2}` to control word frequency  
+- **Internal block weights** `{{A|B}:1|{C|D}:2}` to control block frequency  
 - **Optional blocks** `{A|B}?0.25` probability to remove a block (e.g., `?0.25`)  
 
 ---
